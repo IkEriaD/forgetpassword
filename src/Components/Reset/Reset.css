@@ -1,0 +1,38 @@
+
+
+.reset-container h2 {
+  font-size: 200%;
+  font-weight: 600;
+}
+.input-pass {
+  display: grid;
+  gap: 1rem;
+}
+
+.input-pass input {
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  border: 0.5px solid black;
+  width: 30rem;
+}
+
+.checkbox-pass {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.reset-p {
+  border: none;
+  padding: 0.6rem 11.5rem;
+  text-decoration: none;
+  border-radius: 0.6rem;
+  background:  rgb(60, 60, 239);
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.reset-p:hover {
+  background: blue;
+}

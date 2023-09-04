@@ -1,0 +1,73 @@
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  height: 30em;
+}
+
+.header-container {
+  padding: 5rem;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, .4);
+}
+
+.email-container {
+  margin-bottom: -5rem;
+  margin-left: 7rem;
+}
+
+.email-container h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.email-container p {
+  margin-left: 2rem;
+}
+
+.input-box {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  margin-left: 6rem;
+  margin-top: 8rem;
+  
+}
+
+
+.input-box input {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 0.5px solid black;
+  width: 2.8rem;
+  
+}
+
+.verify {
+  padding: 10px;
+  width: 30rem;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+  border-radius: 0.6rem;
+  background:  rgb(60, 60, 239);
+  color: #fff;
+  text-align: center;
+  margin-left: 3rem;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.verify a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.verify:hover {
+background: blue;
+}
+
+.resend-otp {
+  margin-left: 12rem;
+}
+

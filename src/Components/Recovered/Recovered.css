@@ -1,0 +1,17 @@
+
+.home {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.h-div {
+  border-bottom: 0.3px solid black;
+  padding: 0rem 6rem;
+}
+
+.home,
+.home-text {
+  font-size: 1.3rem;
+  font-weight: 300;
+}

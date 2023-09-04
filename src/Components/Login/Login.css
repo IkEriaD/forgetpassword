@@ -1,0 +1,98 @@
+.section-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.img-1 {
+  width: 40rem;
+ margin-top: 8rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.icon-container p {
+  font-size: 140%;
+  font-weight: 600;
+}
+
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.facebook {
+  border-radius: 0.6rem;
+  border: 1px solid black;
+}
+.twitter {
+  border-radius: 0.6rem;
+  border: 1px solid black;
+}
+.linkedin {
+  border-radius: 0.6rem;
+  border: 1px solid black;
+}
+
+/* .icons img {
+  width: 1.8rem;
+  height: 1.8rem;
+} */
+
+.underline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.empty {
+  border-bottom: 1px solid black;
+  width: 33rem;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inputs input {
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  border: 0.5px solid black;
+}
+
+.checkbox {
+  display: flex;
+  gap: 17.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.checkbox a {
+  text-decoration: none;
+}
+
+.login-btn {
+  border-radius: 5px;
+  padding: 5px 20px;
+  width: 5rem;
+  background: rgb(60, 60, 239);
+  color: white;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
